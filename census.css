@@ -1,0 +1,71 @@
+h1,h2{
+       margin: 2em auto;
+       font-size:36px; 
+       font-family:"Times New Roman",Georgia,Serif;
+       text-align:center;
+       display:block;
+       width: 25em;
+}
+h2{
+	   font-size:28px;
+}
+.thestates,.thecityzip,.theperiod,.thepopulation,i,img,ul,p{
+       margin: 1em auto;
+       display:block;
+       width: 35em;
+       text-align:left;
+       padding-left:3em;
+}
+i{
+	   text-align:left;
+	   font-size:18px;
+}
+ul,p{
+	   text-align:center;
+	   list-style:none;
+}
+label{
+	    font-weight:bold;
+	    margin-right:2em;
+	    font-family:"Times New Roman",Georgia,Serif;
+        font-size:16px;
+        width:6em;
+}
+input[type=submit]{
+	    font-size:16px;
+	    font-weight:bold;
+	    float:right;
+	    margin-right:4em;
+	    clear:both;
+	    border-radius:5px;
+	    -webkit-border-radius: 12px; 
+        -moz-border-radius: 12px; 
+	    background-color:lightgreen;
+	    padding:5px;
+}
+input[type=text],select{
+	    float:right;
+	    width:150px;
+	    height:20px;
+	    box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+}
+body{
+	   background-color:lightblue;
+}
+
+*{
+	outline:0px solid blue;
+}
+img{
+	 margin-top:5em;
+	 clear:both;
+}
+body{
+	background:url(totalpopulationbyage2010.jpg) no-repeat center center fixed;
+    -webkit-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    -o-background-size: 100% 100%;
+    background-size: 100% 100%;
+}
